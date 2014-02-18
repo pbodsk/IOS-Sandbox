@@ -7,6 +7,7 @@
 //
 
 #import "ISARootViewController.h"
+#import "ISAScrollViewController.h"
 
 @interface ISARootViewController ()
 
@@ -18,7 +19,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        // Custom initialization
+        self.title = @"Root View Controller";
     }
     return self;
 }
@@ -47,4 +48,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)scrollviewButtonTapped:(id)sender {
+    ISAScrollViewController *scrollViewController = [[ISAScrollViewController alloc]init];
+    [self.navigationController pushViewController:scrollViewController animated:YES];
+}
 @end

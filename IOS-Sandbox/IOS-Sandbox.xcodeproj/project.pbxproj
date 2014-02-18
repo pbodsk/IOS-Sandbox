@@ -24,6 +24,10 @@
 		D00D8FA518B3F1B30036CD39 /* ISARootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D00D8FA218B3F1B30036CD39 /* ISARootViewController.xib */; };
 		D00D8FA618B3F1B30036CD39 /* ISARootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D00D8FA218B3F1B30036CD39 /* ISARootViewController.xib */; };
 		D00D8FA818B3F27D0036CD39 /* ISARootViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D00D8FA718B3F27D0036CD39 /* ISARootViewControllerTests.m */; };
+		D00D8FAC18B3F7C80036CD39 /* ISAScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D00D8FAA18B3F7C80036CD39 /* ISAScrollViewController.m */; };
+		D00D8FAD18B3F7C80036CD39 /* ISAScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D00D8FAA18B3F7C80036CD39 /* ISAScrollViewController.m */; };
+		D00D8FAE18B3F7C80036CD39 /* ISAScrollViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D00D8FAB18B3F7C80036CD39 /* ISAScrollViewController.xib */; };
+		D00D8FAF18B3F7C80036CD39 /* ISAScrollViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D00D8FAB18B3F7C80036CD39 /* ISAScrollViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +61,9 @@
 		D00D8FA118B3F1B30036CD39 /* ISARootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISARootViewController.m; path = Views/ISARootViewController.m; sourceTree = "<group>"; };
 		D00D8FA218B3F1B30036CD39 /* ISARootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ISARootViewController.xib; path = Views/ISARootViewController.xib; sourceTree = "<group>"; };
 		D00D8FA718B3F27D0036CD39 /* ISARootViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISARootViewControllerTests.m; sourceTree = "<group>"; };
+		D00D8FA918B3F7C80036CD39 /* ISAScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISAScrollViewController.h; path = Views/ISAScrollViewController.h; sourceTree = "<group>"; };
+		D00D8FAA18B3F7C80036CD39 /* ISAScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISAScrollViewController.m; path = Views/ISAScrollViewController.m; sourceTree = "<group>"; };
+		D00D8FAB18B3F7C80036CD39 /* ISAScrollViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ISAScrollViewController.xib; path = Views/ISAScrollViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +168,9 @@
 				D00D8FA018B3F1B30036CD39 /* ISARootViewController.h */,
 				D00D8FA118B3F1B30036CD39 /* ISARootViewController.m */,
 				D00D8FA218B3F1B30036CD39 /* ISARootViewController.xib */,
+				D00D8FA918B3F7C80036CD39 /* ISAScrollViewController.h */,
+				D00D8FAA18B3F7C80036CD39 /* ISAScrollViewController.m */,
+				D00D8FAB18B3F7C80036CD39 /* ISAScrollViewController.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -244,6 +254,7 @@
 				D00D8F7B18B3F1180036CD39 /* InfoPlist.strings in Resources */,
 				D00D8FA518B3F1B30036CD39 /* ISARootViewController.xib in Resources */,
 				D00D8F8318B3F1180036CD39 /* Images.xcassets in Resources */,
+				D00D8FAE18B3F7C80036CD39 /* ISAScrollViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +264,7 @@
 			files = (
 				D00D8FA618B3F1B30036CD39 /* ISARootViewController.xib in Resources */,
 				D00D8F9418B3F1180036CD39 /* InfoPlist.strings in Resources */,
+				D00D8FAF18B3F7C80036CD39 /* ISAScrollViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +278,7 @@
 				D00D8FA318B3F1B30036CD39 /* ISARootViewController.m in Sources */,
 				D00D8F8118B3F1180036CD39 /* ISAAppDelegate.m in Sources */,
 				D00D8F7D18B3F1180036CD39 /* main.m in Sources */,
+				D00D8FAC18B3F7C80036CD39 /* ISAScrollViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +289,7 @@
 				D00D8FA818B3F27D0036CD39 /* ISARootViewControllerTests.m in Sources */,
 				D00D8FA418B3F1B30036CD39 /* ISARootViewController.m in Sources */,
 				D00D8F9618B3F1180036CD39 /* IOS_SandboxTests.m in Sources */,
+				D00D8FAD18B3F7C80036CD39 /* ISAScrollViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

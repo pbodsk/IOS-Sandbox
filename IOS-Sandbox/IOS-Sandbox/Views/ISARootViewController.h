@@ -10,5 +10,6 @@
 
 @interface ISARootViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UIView *foregroundView;
+- (IBAction)scrollviewButtonTapped:(id)sender;
 
 @end
