@@ -28,6 +28,7 @@
 		D00D8FAD18B3F7C80036CD39 /* ISAScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D00D8FAA18B3F7C80036CD39 /* ISAScrollViewController.m */; };
 		D00D8FAE18B3F7C80036CD39 /* ISAScrollViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D00D8FAB18B3F7C80036CD39 /* ISAScrollViewController.xib */; };
 		D00D8FAF18B3F7C80036CD39 /* ISAScrollViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D00D8FAB18B3F7C80036CD39 /* ISAScrollViewController.xib */; };
+		D00D8FB118B3F8E50036CD39 /* ISAScrollViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D00D8FB018B3F8E50036CD39 /* ISAScrollViewControllerTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		D00D8FA918B3F7C80036CD39 /* ISAScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISAScrollViewController.h; path = Views/ISAScrollViewController.h; sourceTree = "<group>"; };
 		D00D8FAA18B3F7C80036CD39 /* ISAScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISAScrollViewController.m; path = Views/ISAScrollViewController.m; sourceTree = "<group>"; };
 		D00D8FAB18B3F7C80036CD39 /* ISAScrollViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ISAScrollViewController.xib; path = Views/ISAScrollViewController.xib; sourceTree = "<group>"; };
+		D00D8FB018B3F8E50036CD39 /* ISAScrollViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISAScrollViewControllerTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 				D00D8F9518B3F1180036CD39 /* IOS_SandboxTests.m */,
 				D00D8F9018B3F1180036CD39 /* Supporting Files */,
 				D00D8FA718B3F27D0036CD39 /* ISARootViewControllerTests.m */,
+				D00D8FB018B3F8E50036CD39 /* ISAScrollViewControllerTests.m */,
 			);
 			path = "IOS-SandboxTests";
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D00D8FB118B3F8E50036CD39 /* ISAScrollViewControllerTests.m in Sources */,
 				D00D8FA818B3F27D0036CD39 /* ISARootViewControllerTests.m in Sources */,
 				D00D8FA418B3F1B30036CD39 /* ISARootViewController.m in Sources */,
 				D00D8F9618B3F1180036CD39 /* IOS_SandboxTests.m in Sources */,
