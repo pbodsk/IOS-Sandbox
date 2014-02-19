@@ -9,7 +9,7 @@
 #import "ISAScrollViewController.h"
 
 @interface ISAScrollViewController ()
-@property (nonatomic, weak) NSArray *imagesArray;
+@property (nonatomic, strong) NSArray *imagesArray;
 
 @end
 
@@ -20,6 +20,7 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         self.title = @"Scroll View Controller";
+        self.imagesArray = @[[UIImage imageNamed:@"1.jpg"], [UIImage imageNamed:@"2.jpg"], [UIImage imageNamed:@"3.jpg"]];
     }
     return self;
 }
@@ -29,37 +30,16 @@
     
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    self.scrollView.contentSize = CGSizeMake(self.scrollView.frame.size.width * 4, self.scrollView.frame.size.height);
+    self.scrollView.contentSize = CGSizeMake(self.scrollView.frame.size.width * self.imagesArray.count, self.scrollView.frame.size.height);
     self.scrollView.delegate = self;
-    self.textLabel.text = @"page 1";
-    /*
-    [super viewDidLoad];
-    
-    NSArray *colors = [NSArray arrayWithObjects:[UIColor redColor], [UIColor blueColor],
-                       [UIColor greenColor],[UIColor yellowColor] , nil];
-    
-    for (int i = 0; i < colors.count; i++) {
-        
-        CGRect frame;
-        frame.origin.x = self.scrollView.frame.size.width * i;
-        frame.size = self.scrollView.frame.size;
-        
-        self.scrollView.pagingEnabled = YES;
-        
-        UIView *subview = [[UIView alloc] initWithFrame:frame];
-        subview.backgroundColor = [colors objectAtIndex:i];
-        [self.scrollView addSubview:subview];
+    for(int i = 0; i < self.imagesArray.count; i++){
+        UIImage *currentImage = [self.imagesArray objectAtIndex:i];
+        CGSize scrollViewSize = self.scrollView.frame.size;
+        UIImageView *imageView = [[UIImageView alloc]initWithFrame:CGRectMake(scrollViewSize.width * i, 0.0, scrollViewSize.width, scrollViewSize.height)];
+//        imageView.contentMode = UIViewContentModeScaleToFill;
+        imageView.image = currentImage;
+        [self.scrollView addSubview:imageView];
     }
-    
-    self.scrollView.contentSize = CGSizeMake(self.scrollView.frame.size.width * colors.count, self.scrollView.frame.size.height);
-     */
-
-}
-
-- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
-    NSLog(@"%s", __PRETTY_FUNCTION__);
-    CGPoint offset = scrollView.contentOffset;
-    NSLog(@"Offset: x %f y: %f", offset.x, offset.y);
 }
 
 - (void)didReceiveMemoryWarning

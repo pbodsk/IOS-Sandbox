@@ -29,6 +29,9 @@
 		D00D8FAE18B3F7C80036CD39 /* ISAScrollViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D00D8FAB18B3F7C80036CD39 /* ISAScrollViewController.xib */; };
 		D00D8FAF18B3F7C80036CD39 /* ISAScrollViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D00D8FAB18B3F7C80036CD39 /* ISAScrollViewController.xib */; };
 		D00D8FB118B3F8E50036CD39 /* ISAScrollViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D00D8FB018B3F8E50036CD39 /* ISAScrollViewControllerTests.m */; };
+		D0AD90F318B54891004FFC6D /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0AD90F018B54891004FFC6D /* 1.jpg */; };
+		D0AD90F418B54891004FFC6D /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0AD90F118B54891004FFC6D /* 2.jpg */; };
+		D0AD90F518B54891004FFC6D /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0AD90F218B54891004FFC6D /* 3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +69,9 @@
 		D00D8FAA18B3F7C80036CD39 /* ISAScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISAScrollViewController.m; path = Views/ISAScrollViewController.m; sourceTree = "<group>"; };
 		D00D8FAB18B3F7C80036CD39 /* ISAScrollViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ISAScrollViewController.xib; path = Views/ISAScrollViewController.xib; sourceTree = "<group>"; };
 		D00D8FB018B3F8E50036CD39 /* ISAScrollViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISAScrollViewControllerTests.m; sourceTree = "<group>"; };
+		D0AD90F018B54891004FFC6D /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		D0AD90F118B54891004FFC6D /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		D0AD90F218B54891004FFC6D /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +131,7 @@
 		D00D8F7618B3F1180036CD39 /* IOS-Sandbox */ = {
 			isa = PBXGroup;
 			children = (
+				D0AD90EF18B54891004FFC6D /* Images */,
 				D00D8F9F18B3F1880036CD39 /* Views */,
 				D00D8F7F18B3F1180036CD39 /* ISAAppDelegate.h */,
 				D00D8F8018B3F1180036CD39 /* ISAAppDelegate.m */,
@@ -176,6 +183,16 @@
 				D00D8FAB18B3F7C80036CD39 /* ISAScrollViewController.xib */,
 			);
 			name = Views;
+			sourceTree = "<group>";
+		};
+		D0AD90EF18B54891004FFC6D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D0AD90F018B54891004FFC6D /* 1.jpg */,
+				D0AD90F118B54891004FFC6D /* 2.jpg */,
+				D0AD90F218B54891004FFC6D /* 3.jpg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,10 +271,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0AD90F418B54891004FFC6D /* 2.jpg in Resources */,
 				D00D8F7B18B3F1180036CD39 /* InfoPlist.strings in Resources */,
 				D00D8FA518B3F1B30036CD39 /* ISARootViewController.xib in Resources */,
 				D00D8F8318B3F1180036CD39 /* Images.xcassets in Resources */,
 				D00D8FAE18B3F7C80036CD39 /* ISAScrollViewController.xib in Resources */,
+				D0AD90F518B54891004FFC6D /* 3.jpg in Resources */,
+				D0AD90F318B54891004FFC6D /* 1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,6 +506,7 @@
 				D00D8F9B18B3F1180036CD39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D00D8F9C18B3F1180036CD39 /* Build configuration list for PBXNativeTarget "IOS-SandboxTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +515,7 @@
 				D00D8F9E18B3F1180036CD39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
