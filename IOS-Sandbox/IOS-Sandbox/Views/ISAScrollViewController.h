@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ISAScrollViewController : UIViewController
+@interface ISAScrollViewController : UIViewController <UIScrollViewDelegate>
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+@property (weak, nonatomic) IBOutlet UILabel *textLabel;
 
 @end
