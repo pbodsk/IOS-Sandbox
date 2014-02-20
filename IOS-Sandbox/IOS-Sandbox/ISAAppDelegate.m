@@ -8,6 +8,7 @@
 
 #import "ISAAppDelegate.h"
 #import "ISARootViewController.h"
+#import "ISAScrollViewController.h"
 
 @implementation ISAAppDelegate
 
@@ -17,9 +18,11 @@
     // Override point for customization after application launch.
     
     ISARootViewController *rootViewController = [[ISARootViewController alloc]init];
+    ISAScrollViewController *scrollViewController = [[ISAScrollViewController alloc]init];
     UINavigationController *navigationController = [[UINavigationController alloc]initWithRootViewController:rootViewController];
     
     self.window.rootViewController = navigationController;
+    //self.window.rootViewController = scrollViewController;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
