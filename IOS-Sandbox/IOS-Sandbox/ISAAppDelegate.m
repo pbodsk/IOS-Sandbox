@@ -9,6 +9,7 @@
 #import "ISAAppDelegate.h"
 #import "ISARootViewController.h"
 #import "ISAScrollViewController.h"
+#import "ISATimerViewController.h"
 
 @implementation ISAAppDelegate
 
@@ -19,9 +20,11 @@
     
     ISARootViewController *rootViewController = [[ISARootViewController alloc]init];
     ISAScrollViewController *scrollViewController = [[ISAScrollViewController alloc]init];
-    UINavigationController *navigationController = [[UINavigationController alloc]initWithRootViewController:rootViewController];
+    ISATimerViewController *timerViewController = [ISATimerViewController new];
+    UINavigationController *navigationController = [[UINavigationController alloc]initWithRootViewController:timerViewController];
     
-    self.window.rootViewController = navigationController;
+//    self.window.rootViewController = navigationController;
+    self.window.rootViewController = timerViewController;
     //self.window.rootViewController = scrollViewController;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];

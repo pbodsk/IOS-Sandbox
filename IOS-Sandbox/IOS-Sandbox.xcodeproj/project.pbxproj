@@ -32,6 +32,10 @@
 		D0AD90F318B54891004FFC6D /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0AD90F018B54891004FFC6D /* 1.jpg */; };
 		D0AD90F418B54891004FFC6D /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0AD90F118B54891004FFC6D /* 2.jpg */; };
 		D0AD90F518B54891004FFC6D /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0AD90F218B54891004FFC6D /* 3.jpg */; };
+		D0ED7CE118BD333B003052F4 /* ISATimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0ED7CDF18BD333B003052F4 /* ISATimerViewController.m */; };
+		D0ED7CE218BD333B003052F4 /* ISATimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0ED7CDF18BD333B003052F4 /* ISATimerViewController.m */; };
+		D0ED7CE318BD333B003052F4 /* ISATimerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0ED7CE018BD333B003052F4 /* ISATimerViewController.xib */; };
+		D0ED7CE418BD333B003052F4 /* ISATimerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0ED7CE018BD333B003052F4 /* ISATimerViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +76,9 @@
 		D0AD90F018B54891004FFC6D /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		D0AD90F118B54891004FFC6D /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
 		D0AD90F218B54891004FFC6D /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		D0ED7CDE18BD333B003052F4 /* ISATimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISATimerViewController.h; path = Views/ISATimerViewController.h; sourceTree = "<group>"; };
+		D0ED7CDF18BD333B003052F4 /* ISATimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISATimerViewController.m; path = Views/ISATimerViewController.m; sourceTree = "<group>"; };
+		D0ED7CE018BD333B003052F4 /* ISATimerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ISATimerViewController.xib; path = Views/ISATimerViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +188,9 @@
 				D00D8FA918B3F7C80036CD39 /* ISAScrollViewController.h */,
 				D00D8FAA18B3F7C80036CD39 /* ISAScrollViewController.m */,
 				D00D8FAB18B3F7C80036CD39 /* ISAScrollViewController.xib */,
+				D0ED7CDE18BD333B003052F4 /* ISATimerViewController.h */,
+				D0ED7CDF18BD333B003052F4 /* ISATimerViewController.m */,
+				D0ED7CE018BD333B003052F4 /* ISATimerViewController.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -271,6 +281,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0ED7CE318BD333B003052F4 /* ISATimerViewController.xib in Resources */,
 				D0AD90F418B54891004FFC6D /* 2.jpg in Resources */,
 				D00D8F7B18B3F1180036CD39 /* InfoPlist.strings in Resources */,
 				D00D8FA518B3F1B30036CD39 /* ISARootViewController.xib in Resources */,
@@ -285,6 +296,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0ED7CE418BD333B003052F4 /* ISATimerViewController.xib in Resources */,
 				D00D8FA618B3F1B30036CD39 /* ISARootViewController.xib in Resources */,
 				D00D8F9418B3F1180036CD39 /* InfoPlist.strings in Resources */,
 				D00D8FAF18B3F7C80036CD39 /* ISAScrollViewController.xib in Resources */,
@@ -298,6 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0ED7CE118BD333B003052F4 /* ISATimerViewController.m in Sources */,
 				D00D8FA318B3F1B30036CD39 /* ISARootViewController.m in Sources */,
 				D00D8F8118B3F1180036CD39 /* ISAAppDelegate.m in Sources */,
 				D00D8F7D18B3F1180036CD39 /* main.m in Sources */,
@@ -311,6 +324,7 @@
 			files = (
 				D00D8FB118B3F8E50036CD39 /* ISAScrollViewControllerTests.m in Sources */,
 				D00D8FA818B3F27D0036CD39 /* ISARootViewControllerTests.m in Sources */,
+				D0ED7CE218BD333B003052F4 /* ISATimerViewController.m in Sources */,
 				D00D8FA418B3F1B30036CD39 /* ISARootViewController.m in Sources */,
 				D00D8F9618B3F1180036CD39 /* IOS_SandboxTests.m in Sources */,
 				D00D8FAD18B3F7C80036CD39 /* ISAScrollViewController.m in Sources */,
