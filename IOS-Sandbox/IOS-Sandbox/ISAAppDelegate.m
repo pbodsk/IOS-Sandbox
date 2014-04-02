@@ -10,6 +10,7 @@
 #import "ISARootViewController.h"
 #import "ISAScrollViewController.h"
 #import "ISATimerViewController.h"
+#import "ISABlurViewController.h"
 
 @implementation ISAAppDelegate
 
@@ -21,11 +22,12 @@
     ISARootViewController *rootViewController = [[ISARootViewController alloc]init];
     ISAScrollViewController *scrollViewController = [[ISAScrollViewController alloc]init];
     ISATimerViewController *timerViewController = [ISATimerViewController new];
-    UINavigationController *navigationController = [[UINavigationController alloc]initWithRootViewController:timerViewController];
+    ISABlurViewController *blurViewController = [ISABlurViewController new];
+    UINavigationController *navigationController = [[UINavigationController alloc]initWithRootViewController:blurViewController];
     
-//    self.window.rootViewController = navigationController;
-    self.window.rootViewController = timerViewController;
-    //self.window.rootViewController = scrollViewController;
+    self.window.rootViewController = navigationController;
+//    self.window.rootViewController = timerViewController;
+//    self.window.rootViewController = scrollViewController;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
